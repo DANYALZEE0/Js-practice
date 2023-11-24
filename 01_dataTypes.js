@@ -23,7 +23,7 @@ let state;
 // boolean => true/false
 //null => Stand alone value 
 // undefined =>
-// symbol => about unique
+// symbol => Most of the implementation in react / about to find unique
 
 // *NonPrimitive Datatype
 //object 
@@ -32,5 +32,6 @@ console.log(typeof "zeeshan");
 console.log(typeof age);
 console.log(typeof null); // type output : object
 console.log(typeof undefined); //undefined
+
 
 
