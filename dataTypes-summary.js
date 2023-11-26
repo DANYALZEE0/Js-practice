@@ -31,3 +31,27 @@ let myInfo = {
  }
 
  console.log(typeof outsideTemp);
+
+// *************************************************
+ // Memory 2 types of 
+ // Stack (Primitive), Heap(non Primitive)
+ // Eg:
+
+ let myDTVideo = "dataType-Summary"
+ let Datatype = myDTVideo
+   Datatype = "PrimitivedataType"
+ 
+ //console.log(myDTVideo);
+ //console.log(Datatype);
+
+ let userOne = {
+    email : "Zeeshan@gmail.com",
+    upi : "8956299161@ybl"
+ }
+
+ let userTwo = userOne
+
+ userTwo.email = "use@google.com"
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
